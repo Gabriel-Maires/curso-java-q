@@ -3,11 +3,9 @@ package Exercicios2;
 
 import java.util.Scanner;
 
+public class PositivoNegativo05 {
 
-
-public class PositivoNegativo {
-
-        public static void verificaNumeroPositivoNegativo(Integer numero){
+    public static void verificaNumeroPositivoNegativo(Integer numero){
         if(numero < 0){
             System.out.print("Este é um número negativo! ");
         } else if(numero > 0){
@@ -18,7 +16,7 @@ public class PositivoNegativo {
     }
 
     public static void main(String[] args) {
-        
+
     Scanner sc = new Scanner(System.in);
     System.out.print("Digite um número: ");
     int numero = sc.nextInt();

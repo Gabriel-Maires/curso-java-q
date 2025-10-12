@@ -3,7 +3,7 @@ package Exercicios2;
 
 import java.util.Scanner;
 
-public class ImparOuPar {
+public class ImparOuPar01 {
     public static void CalculadoraImparPar(Integer numero){
         if(numero % 2 == 0){
             System.out.println("Número Par!");
