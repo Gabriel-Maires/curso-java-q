@@ -5,6 +5,12 @@ Atenção, utilize um loop FOR.
 
 public class ImprimeDecrescenteFor {
     public static void main(String[] args) {
-        // Implementação do exercício aqui
+        int i = 10;
+        while(i >= 1){
+            System.out.print(i);
+            System.out.print(" ");
+            i--;
+        }
+
     }
 }

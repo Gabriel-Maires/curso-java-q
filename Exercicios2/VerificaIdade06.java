@@ -25,5 +25,6 @@ public class VerificaIdade06 {
         System.out.print("Qual sua idade? ");
         Integer idade = sc.nextInt();
         verificaIdadePessoa(idade);
+        sc.close();
     }
 }

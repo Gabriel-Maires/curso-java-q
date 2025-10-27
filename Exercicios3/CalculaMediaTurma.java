@@ -18,5 +18,6 @@ public class CalculaMediaTurma {
             somaNotasAlunos += notaAluno;
         }
         System.out.print("A média da turma é: " + (somaNotasAlunos / numeroAlunos));
+        sc.close();
     }
 }

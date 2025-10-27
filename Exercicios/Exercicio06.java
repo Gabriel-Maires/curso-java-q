@@ -11,10 +11,11 @@ import java.text.DecimalFormat;
 public class Exercicio06 {
     public static void main(String[] args) {
       DecimalFormat dfTwoDecimals = new DecimalFormat("#.##");
-      Scanner scanner = new Scanner(System.in);
+      Scanner sc = new Scanner(System.in);
       System.out.println("Digite o valor do raio para calcular a area do circulo: ");
-      double raio = scanner.nextFloat();
+      double raio = sc.nextFloat();
       final double PI = 3.14159;
       System.out.println("A area do circulo é: " + dfTwoDecimals.format(( PI * (raio * raio))));
+      sc.close();
     }
 }

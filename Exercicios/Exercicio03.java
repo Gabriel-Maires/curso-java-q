@@ -8,18 +8,19 @@ import java.util.Scanner;
 
 public class Exercicio03 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Olá! Qual seu nome? ");
-        String name = scanner.nextLine();
+        String name = sc.nextLine();
         System.out.println("Agora, digite a primeira nota: ");
-        Integer primeiraNota = scanner.nextInt();
+        Integer primeiraNota = sc.nextInt();
         System.out.println("Agora, digite a segunda nota: ");
-        Integer segundaNota = scanner.nextInt();
+        Integer segundaNota = sc.nextInt();
         System.out.println("Agora, digite a terceira nota: ");
-        Integer terceiraNota = scanner.nextInt();
+        Integer terceiraNota = sc.nextInt();
         System.out.println("Agora, digite a quarta nota: ");
-        Integer quartaNota = scanner.nextInt();
+        Integer quartaNota = sc.nextInt();
         Float media = (float)((primeiraNota + segundaNota + terceiraNota + quartaNota) / 4); 
         System.out.println("Sua média é: " + media);
+        sc.close();
     }
 }

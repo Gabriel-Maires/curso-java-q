@@ -4,6 +4,9 @@
 
 public class ExibeZeroACem {
     public static void main(String[] args) {
-        // Implementação do exercício aqui
+        for(int i = 0; i <= 100;i++){
+            System.out.print(i);
+            System.out.print(" ");
+        }
     }
 }

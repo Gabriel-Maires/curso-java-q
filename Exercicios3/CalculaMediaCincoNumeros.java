@@ -32,5 +32,6 @@ public class CalculaMediaCincoNumeros {
         double numero5 = sc.nextDouble();
 
         calculaMedia(numero1, numero2, numero3, numero4, numero5);
+        sc.close();
     }
 }

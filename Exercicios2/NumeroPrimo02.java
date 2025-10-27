@@ -13,6 +13,6 @@ public class NumeroPrimo02 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite um número: ");
         int numero = sc.nextInt();
-
+        sc.close();
     }
 }

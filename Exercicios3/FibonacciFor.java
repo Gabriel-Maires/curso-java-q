@@ -8,7 +8,13 @@ Atenção, utilize um loop FOR.
 */
 
 public class FibonacciFor {
+
     public static void main(String[] args) {
-        // Implementação do exercício aqui
+        int lastNumber = 0;
+        for(int i = 0; i <= 100;i+=lastNumber){
+            System.out.print(i+lastNumber);
+            lastNumber = i-=1;
+            System.out.print(" ");
+        }
     }
 }

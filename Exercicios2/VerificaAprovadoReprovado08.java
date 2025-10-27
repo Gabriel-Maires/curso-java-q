@@ -23,5 +23,6 @@ public class VerificaAprovadoReprovado08 {
         System.out.print("Digite uma nota: ");
         Double nota = sc.nextDouble();
         verificaNotaALuno(nota);
+        sc.close();
     }
 }

@@ -30,5 +30,6 @@ public class CorCorrespondente11 {
         System.out.print("Digite uma das opções: V, A, B ");
         String cor = sc.nextLine();
         verificaCor(cor);
+        sc.close();
     }
 }

@@ -11,13 +11,14 @@ import java.util.Scanner;
 
 public class Exercicio07 {
     public static void main(String[] args) {
-      Scanner scanner = new Scanner(System.in);
+      Scanner sc = new Scanner(System.in);
 
       System.out.println("Digite o comprimento: ");
-      double comprimento = scanner.nextDouble();
+      double comprimento = sc.nextDouble();
       System.out.println("Digite a altura: ");
-      double altura = scanner.nextDouble();
+      double altura = sc.nextDouble();
 
       System.out.println("A area do retangulo é: " + (comprimento * altura));
+      sc.close();
     }
 }

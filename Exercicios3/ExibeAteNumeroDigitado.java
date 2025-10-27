@@ -9,8 +9,14 @@ import java.util.Scanner;
 
 public class ExibeAteNumeroDigitado {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        // Implementação do exercício aqui
-        scanner.close();
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Digite o número a ser contado: ");
+        int numero = sc.nextInt();
+        for(int i = 0; i <= numero;i++){
+            System.out.print(i);
+            System.out.print(" ");
+        }
+        sc.close();
+
     }
 }

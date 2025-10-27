@@ -4,6 +4,13 @@
 
 public class MultiplosDeTresWhile {
     public static void main(String[] args) {
-        // Implementação do exercício aqui
+        int i = 1;
+        while(i <= 30){
+            if(i % 3 == 0 || i == 1){
+                System.out.print(i);
+                System.out.print(" ");
+            }
+            i++;
+        }
     }
 }

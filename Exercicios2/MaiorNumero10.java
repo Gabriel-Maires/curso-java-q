@@ -27,5 +27,6 @@ public class MaiorNumero10 {
     System.out.print("Digite o terceiro número: ");
     Integer numero3 = sc.nextInt();
     verificaMaiorNumero(numero1, numero2, numero3);
+    sc.close();
     }
 }

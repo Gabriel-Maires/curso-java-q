@@ -7,11 +7,12 @@ import java.util.Scanner;
 
 public class Exercicio02 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Olá! Qual seu nome? ");
-        String name = scanner.nextLine();
+        String name = sc.nextLine();
         System.out.println("E qual sua idade? ");
-        Integer idade = scanner.nextInt();
+        Integer idade = sc.nextInt();
         System.out.println("Seu nome é " + name + " e você tem " + idade);
+        sc.close();
     }
 }

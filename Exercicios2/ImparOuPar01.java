@@ -19,5 +19,6 @@ public class ImparOuPar01 {
         System.out.print("Digite um número: ");
         int numero = sc.nextInt();
         CalculadoraImparPar(numero);
+        sc.close();
     }
 }

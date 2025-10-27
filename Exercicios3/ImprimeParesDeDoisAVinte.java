@@ -5,6 +5,13 @@ e o 20.
 
 public class ImprimeParesDeDoisAVinte {
     public static void main(String[] args) {
-        // Implementação do exercício aqui
+        int i = 2;
+        while(i <= 20){
+            if(i % 2 == 0 || i == 2){
+                System.out.print(i);
+                System.out.print(" ");
+            }
+            i++;
+        }
     }
 }

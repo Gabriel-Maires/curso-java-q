@@ -21,6 +21,6 @@ public class PositivoNegativo05 {
     System.out.print("Digite um número: ");
     int numero = sc.nextInt();
     verificaNumeroPositivoNegativo(numero);
-
+    sc.close();
     }
 }

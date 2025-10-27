@@ -41,5 +41,6 @@ public class DiasAno09 {
         System.out.print("Digite um número para o dia da semana, (Ex. 1 - Segunda): ");
         String dia = sc.nextLine();
         verificaDiaDaSemana(dia);
+        sc.close();
     }
 }

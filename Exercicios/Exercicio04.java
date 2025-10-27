@@ -7,9 +7,10 @@ import java.util.Scanner;
 
 public class Exercicio04{
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Digite o número a ser calculado: ");
-        Float numero = scanner.nextFloat();
+        Float numero = sc.nextFloat();
         System.out.println("O numero informado ao quadrado é: " + (numero * numero));
+        sc.close();
     }
 }

@@ -12,6 +12,7 @@ public class VerificaAniversario04 {
     Scanner sc = new Scanner(System.in);
     System.out.print("Qual sua data de aniversário? ");
     String dateInput = sc.nextLine();
+    sc.close();
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
     LocalDate dateConverted = LocalDate.parse(dateInput, formatter);
     LocalDate currentDate = LocalDate.now();
@@ -21,4 +22,5 @@ public class VerificaAniversario04 {
         System.out.print("Infelizmente hoje não é seu aniversário :( a data de hoje é: " + currentDate.format(formatter));
     }
     }
+    
 }

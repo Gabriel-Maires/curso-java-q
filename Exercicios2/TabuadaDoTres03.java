@@ -27,5 +27,6 @@ public class TabuadaDoTres03 {
             System.out.print("Digite um número: ");
             int numero = sc.nextInt();
             verificaNumeroTabuadaDoTres(numero);
+            sc.close();
         }
 }

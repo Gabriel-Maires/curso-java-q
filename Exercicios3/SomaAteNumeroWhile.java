@@ -9,8 +9,15 @@ import java.util.Scanner;
 
 public class SomaAteNumeroWhile {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        // Implementação do exercício aqui
-        scanner.close();
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Digite o número a ser contado: ");
+        int numero = sc.nextInt();
+        for(int i = 1; i < numero; i += i){
+            if(i < numero){
+                System.out.print(i + i);asdasd
+                System.out.print(" ");
+            }
+        }
+        sc.close();
     }
 }
