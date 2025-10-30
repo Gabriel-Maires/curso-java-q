@@ -20,7 +20,7 @@ public class Exercicio03 {
         System.out.println("Agora, digite a quarta nota: ");
         Integer quartaNota = sc.nextInt();
         Float media = (float)((primeiraNota + segundaNota + terceiraNota + quartaNota) / 4); 
-        System.out.println("Sua média é: " + media);
+        System.out.println(name + ", sua média é: " + media);
         sc.close();
     }
 }
